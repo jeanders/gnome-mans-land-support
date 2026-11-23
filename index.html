@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Help with controls, multiplayer, Apple TV, and privacy in Gnome Man’s Land.">
+  <title>Gnome Man’s Land — Support</title>
+  <style>
+    :root{color-scheme:dark;background:#101f26;color:#e8efdf;font:100%/1.65 system-ui,sans-serif}
+    body{max-width:46rem;margin:auto;padding:clamp(1rem,5vw,3rem)}
+    header{display:flex;gap:1rem;align-items:center;margin:1rem 0 2rem}
+    header img{width:clamp(3.5rem,12vw,6rem);height:auto;border-radius:22%}
+    h1,h2,h3{line-height:1.2;color:#ffe1a3}h1{font-size:clamp(1.65rem,5vw,2.8rem);margin:0}
+    header p{margin:.3rem 0 0}h2{margin-top:2rem}h3{font-size:1.1rem}
+    a{color:#a9efdb;text-underline-offset:.18em}a:focus-visible{outline:2px solid #ffe1a3;outline-offset:4px}
+    nav{display:flex;gap:.75rem 1.4rem;flex-wrap:wrap}section{border-top:1px solid #466063;margin-top:1.6rem}
+    .skip{position:absolute;left:1rem;top:-5rem;background:#101f26;padding:.4rem .8rem}.skip:focus{top:1rem}
+  </style>
+</head>
+<body>
+  <a class="skip" href="#help">Skip to help</a>
+  <header>
+    <img src="app-icon.png" alt="" width="96" height="96">
+    <div><h1>Gnome Man’s Land</h1><p>Support for iPhone and iPad</p></div>
+  </header>
+  <nav aria-label="On this page"><a href="#help">How to play</a><a href="#online">Online matches</a><a href="#contact">Get help</a><a href="#privacy">Privacy</a></nav>
+  <main>
+    <section id="help" aria-labelledby="help-heading">
+      <h2 id="help-heading">How to play</h2>
+      <p>Drag back from your active gnome, then release to shoot. Drag elsewhere to pan the camera. Open <strong>Aim</strong> for direction, angle, and power controls. For a Flamingo strike, use the target slider or tap the battlefield.</p>
+      <p><strong>Play vs CPU</strong>, <strong>Pass &amp; Play</strong>, and <strong>Challenges</strong> work offline. In Pass &amp; Play, choose two or four people, then hand over the device when the next player is called.</p>
+      <p>Replay the tutorial from <strong>Settings</strong>. The game follows the device’s Reduce Motion and menu text size preferences.</p>
+    </section>
+    <section id="online" aria-labelledby="online-heading">
+      <h2 id="online-heading">Online matches and Apple TV</h2>
+      <p>Sign in to Game Center on your device. From the game’s main menu, use <strong>Online play</strong> for two players or <strong>Online doubles</strong> for four. Reopen a match from the same Game Center picker. If a turn fails to send, use <strong>Retry sending turn</strong> before leaving the match.</p>
+      <p>Challenge stars are saved locally. Open the leaderboard or achievements from <strong>Challenges</strong> to sync progress earned offline.</p>
+      <p>To share the battlefield with spectators, start <strong>Screen Mirroring</strong> from Control Center and select your Apple TV. The playing iPhone or iPad keeps control of the match.</p>
+    </section>
+    <section id="contact" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Get help</h2>
+      <p><a href="https://github.com/jeanders/gnome-mans-land-support/issues/new">Open a support issue on GitHub</a>. Include your device model, iOS or iPadOS version, match mode, map name, and what happened. GitHub issues are public, so keep Game Center identifiers and account credentials private.</p>
+    </section>
+    <section id="privacy" aria-labelledby="privacy-heading">
+      <h2 id="privacy-heading">Privacy</h2>
+      <h3>On your device</h3>
+      <p>Gnome Man’s Land stores settings, tutorial progress, recent map choices, and your best challenge stars on your device. Removing the app removes its local data. Progress previously saved to Game Center is managed by Apple.</p>
+      <h3>Game Center</h3>
+      <p>When you use online play, leaderboard, or achievement features, the app uses Apple’s Game Center. Match data includes the garden seed and turn actions needed to reopen and replay the match. Scores and achievement progress are submitted to Game Center for the signed-in player. Your Game Center settings control what activity is shared. <a href="https://www.apple.com/legal/privacy/data/en/game-center/">Read Apple’s Game Center privacy information</a>.</p>
+      <h3>Advertising and analytics</h3>
+      <p>The game has no advertising, analytics SDK, or developer-operated account or match server. For privacy questions, use the support link above and keep personal information out of public posts.</p>
+    </section>
+  </main>
+</body>
+</html>
